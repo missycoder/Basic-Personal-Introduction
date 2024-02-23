@@ -1,0 +1,70 @@
+/* Set the body background color to black and text color to white */
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Change the off-canvas background to gold and text color to black */
+.offcanvas-body {
+    background-color: #ad9551;
+    color: #000;
+}
+
+/* Change the form input background to black and set the text color to gold */
+input[type="text"], input[type="email"], textarea {
+    background-color: #000;
+    color: #ad9551;
+}
+
+/* Change the submit button background to gold and set text color to black */
+.btn-submit {
+    background-color: #ad9551;
+    color: #000;
+}
+
+/* Set the active sidebar link color to gold */
+.offcanvas-body ul li a:active {
+    color: #ad9551;
+}
+
+/* Set the hover effect of the sidebar links to gold */
+.offcanvas-body ul li a:hover {
+    color: #ad9551;
+}
+
+/* Update the page content background to gold */
+.container {
+    background-color: #ad9551;
+}
+
+/* Change the primary button background to gold and text color to black */
+.btn-primary {
+    background-color: #ad9551;
+    color: #000;
+}
+
+/* Remove the default blue outline when hovering over buttons */
+.btn:hover, .btn:focus {
+    outline: none;
+}
+
+/* Change hyperlink color to bronze and remove underline */
+a {
+    color: #ad9551;
+    text-decoration: none;
+}
+
+/* Change hyperlink color to black on hover */
+a:hover {
+    color: #000;
+}
+
+/* Set the sidebar link color to black */
+.offcanvas-body ul li a {
+    color: white;
+}
+
+/* Change the sidebar link color to gold on hover */
+.offcanvas-body ul li a:hover {
+    color: black;
+}
