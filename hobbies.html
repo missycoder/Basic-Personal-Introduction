@@ -26,18 +26,50 @@
 
     <!-- Page content -->
     <div class="container mt-5">
-        <h1>Hobbies/Interests</h1>
-        
-        <p>My hobbies and interests include:</p>
-        <ul>
-            <li>Running</li>
-            <li>Nature Walks</li>
-            <li>Beach Activities</li>
-            <li>Spending Quality Time with Family</li>
-        </ul>
         <button class="btn btn-primary mt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar">
             Click Me!
         </button>
+        <h1>Hobbies/Interests</h1>
+        <hr>
+        <!-- Bootstrap 5 Carousel -->
+        <div id="carouselExampleSlidesOnly" class="carousel slide mt-5" data-bs-ride="carousel" data-bs-interval="3000" data-bs-slides="1">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="text-box">
+                        <h2>Running</h2>
+                        <p>I enjoy running in the early mornings to keep fit and experience the peace of the city before it wakes up.</p>
+                    </div>
+                    <img src="runningsg.jpg" class="d-block w-75 mx-auto" alt="Running in Singapore">
+                </div>
+                <div class="carousel-item">
+                    <div class="text-box">
+                        <h2>Nature Walks</h2>
+                        <p>Exploring the lush greenery and wildlife of Singapore through nature walks is one of my favorite pastimes.</p>
+                    </div>
+                    <img src="nature.png" class="d-block w-75 mx-auto" alt="Sunset nature view over reservoir">
+                </div>
+                <div class="carousel-item">
+                    <div class="text-box">
+                        <h2>Beach Activities</h2>
+                        <p>Heading to the beach is a great way for me to relax and rejuvenate, whether it's swimming, sunbathing, or enjoying water sports.</p>
+                    </div>
+                    <img src="beach.jpg" class="d-block w-75 mx-auto" alt="Beach view">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+        </div>
     </div>
 
     <!-- Bootstrap JS bundle -->
